@@ -8,6 +8,8 @@ php_pkg_spe:
   - "php-imap"
   - "php-imagick"
   - "php-redis"
+  - "php-gmp"
+  - "php-bcmath"
   - "php7.4-xml"
   - "php7.4-zip"
   - "php7.4-mbstring"

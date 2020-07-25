@@ -15,6 +15,7 @@
     line: "{{ item.line }}"
     backrefs: yes
   with_items:
+    - { regexp: 'memory_limit', line: 'memory_limit = 512M' }
     - { regexp: 'opcache.enable=0', line: 'opcache.enable=1' }
     - { regexp: 'opcache.enable_cli', line: 'opcache.enable_cli=1' }
     - { regexp: 'opcache.interned_strings_buffer', line: 'opcache.interned_strings_buffer=8' }
